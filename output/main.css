@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tag{
+    @apply bg-black uppercase px-1.5 py-0.5 rounded-sm text-[14px] text-white ;
+}
+
+.box{
+    @apply flex flex-col md:flex-row items-center md:p-4 p-2 gap-6 border border-[#dde2e5] transition-all hover:scale-105 duration-300 cursor-pointer mt-5;
+}
+
+.head-text{
+    @apply md:text-2xl text-lg font-semibold text-[#333333] md:pt-8 pt-4 pb-4 dark:text-white;
+}
+
+.span-style{
+    @apply bg-[#5677AC26] text-black text-xs md:text-sm uppercase px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white cursor-pointer transition-all dark:bg-slate-400 hover:dark:bg-[#5677AC];
+}
+
+.news-head{
+    @apply bg-[#E6EBF3] text-center rounded-full w-full md:py-4 py-2 font-medium md:text-lg hover:bg-slate-300 transition-all hover:scale-105 duration-300 cursor-pointer
+}
+
+.news-h{
+    @apply md:text-[18px] font-semibold text-[#333333] pb-1 dark:text-white;
+}
+
+.news-p{
+    @apply  md:text-[16px] text-sm text-[#616161] dark:text-gray-500;
+}
